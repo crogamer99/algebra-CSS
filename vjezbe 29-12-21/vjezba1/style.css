@@ -1,0 +1,37 @@
+.text1{
+    background-color: #aaaaaa;
+    border: 5px solid #555555;
+    padding: 20px 40px 20px 40px;
+    text-align: justify;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.text3{
+    background-color: #aaaaaa;
+    border-right: 10px double #555555;
+    text-align:justify;
+    width: 500px;
+    padding: 5px 10px 10px 40px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: -10px;
+}
+.text2{
+    background-color: #aaaaaa;
+    border:5px dashed #555555;
+    padding: 20px 40px 20px 40px;
+    width:500px;
+    text-align:justify;
+    float:right;
+}
+
+.text4{
+    background-color: #aaaaaa;
+    border-top: 5px dashed #555555;
+    border-bottom: 5px dotted #555555;
+    text-align:justify;
+    padding: 5px 20px 5px 20px;
+    margin: 10px auto;
+    width: 75%;
+}
