@@ -1,18 +1,6 @@
-#pic1{
-    width: 20%;
-    padding: 20px;
+img{
+    width:20%;
+    padding:20px;
+    margin:10px 40% 0 40%;
     border: 1px solid black;
-    margin: 1% 40% 0 40%;
-}
-#pic2{
-    width: 20%;
-    padding: 20px;
-    border: 1px solid black;
-    margin: 1% 40% 0 40%;
-}
-#pic3{
-    width: 20%;
-    padding: 20px;
-    border: 1px solid black;
-    margin: 1% 40% 0 40%;
 }

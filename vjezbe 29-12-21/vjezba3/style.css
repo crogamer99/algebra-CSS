@@ -1,46 +1,8 @@
-#text1{
+p{
     border: 1px solid black;
     background: #dddddd;
-    width: 30%;
+    width: 31%;
     float:left;
     padding: 10px 5px 10px 20px;
     margin-right: 1px;
-}
-#text2{
-    border: 1px solid black;
-    background: #dddddd;
-    width: 30%;
-    float: left;
-    padding: 10px 5px 10px 20px;
-    margin-right: 1px;
-}
-#text3{
-    border: 1px solid black;
-    background: #dddddd;
-    width: 30%;
-    padding: 10px 5px 10px 20px;
-    float:left;
-}
-#text4{
-    border: 1px solid black;
-    background: #dddddd;
-    width: 30%;
-    float:left;
-    padding: 10px 5px 10px 20px;
-    margin-right: 1px;
-}
-#text5{
-    border: 1px solid black;
-    background: #dddddd;
-    width: 30%;
-    float: left;
-    padding: 10px 5px 10px 20px;
-    margin-right: 1px;
-}
-#text6{
-    border: 1px solid black;
-    background: #dddddd;
-    width: 30%;
-    padding: 10px 5px 10px 20px;
-    float:left;
 }
