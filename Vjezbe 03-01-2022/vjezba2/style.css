@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+}
+.flex-container{
+    height: 900px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.flex-item{
+    padding-top: 10px;
+    height: 15%;
+    text-align: center;
+    background-color: #dddddd;
+    border: 1px solid black;
+}
