@@ -44,10 +44,8 @@
 
 div:nth-child(5){
     transform: translate(0,-825px) skew(15deg,15deg);
-
 }
 
 div:nth-child(6){
     transform: translate(500px,-1100px) skew(0,50deg) scale(0.6,1.5);
-
 }
