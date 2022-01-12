@@ -1,0 +1,3 @@
+@mixin anime1($lenght, $type, $repeat, $delay){
+    animation:fdown $lenght $type $repeat $delay forwards;
+}

@@ -1,0 +1,66 @@
+@import "base/_colors.scss";
+@import "base/_reset.scss";
+@import "abstracts/_mixins.scss";
+
+
+body{
+    background-image: url(/pic/picture.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    color: $fontcolor;
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.wrapper{
+    display: flex;
+    height:screen;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-basis: 30%;
+}
+
+.wrapper>div{
+    padding: 0 150px;
+    margin: 15% 0.5em;
+    border: 3px solid white;
+    transform: translateY(-600px);
+}
+
+
+
+.wrapper>div:first-child{
+    background-color: $colordiv1;
+}
+
+.wrapper>div:nth-child(2){
+    background-color: $colordiv2;
+}
+
+.wrapper>div:nth-child(3){
+    background-color: $colordiv3;
+}
+
+@keyframes fdown{
+    from{
+
+    }
+    to{transform: translateY(0px);}
+}
+
+.element1{
+    @include anime1(1.5s, ease-in-out, 1, 1s)
+}
+
+.element2{
+    @include anime1(1.5s, ease-in-out, 1, 2.5s)
+}
+
+.element3{
+    @include anime1(1.5s, ease-in-out, 1, 4s)
+}
